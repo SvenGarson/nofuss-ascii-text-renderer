@@ -448,11 +448,9 @@ enum nfatr_bool nfatr_instantiate
 )
 {
    // Failure when no instance given or that instance is already instanciated
-   if (
-      !p_out_instance
-   ) return NFATR_BOOL_FALSE;
+   if (!p_out_instance) return NFATR_BOOL_FALSE;
 
-   // Initialize instance as un-usable
+   // Initialize instance as un-usable in case initialization fails
    p_out_instance->usable = NFATR_BOOL_FALSE;
 
    // Silly parameters
