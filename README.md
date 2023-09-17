@@ -1,2 +1,2 @@
 # nofuss-ascii-text-renderer
-Ascii text rendering information generator without dependencies
+Texture-based ASCII text rendering information generator without dependencies
